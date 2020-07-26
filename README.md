@@ -31,10 +31,10 @@ Time it takes code for 2017 data after refactoring:
 ![Time it takes code for 2017 data after refactoring:](https://github.com/josem279/Stock-Analysis/blob/master/Resources/VBA_Challenge_2017.png)
 
 Time it took code for 2018 data before refactoring:
-![Time it took code for 2018 data before refactoring:](https://github.com/josem279/Stock-Analysis/blob/master/Resources/VBA_Challenge_2018.png)
+![Time it took code for 2018 data before refactoring:](https://github.com/josem279/Stock-Analysis/blob/master/green_stocks_2018.png)
 
 Time it takes code for 2018 data after refactoring:
-![Time it takes code for 2018 data after refactoring:](https://github.com/josem279/Stock-Analysis/blob/master/green_stocks_2018.png)
+![Time it takes code for 2018 data after refactoring:](https://github.com/josem279/Stock-Analysis/blob/master/Resources/VBA_Challenge_2018.png)
 
 - The code is now capable of dynamically creating indexes for  easy to read by adding comments that detailed every individual aspect of the subroutine. The flow of the code was nicer
 
