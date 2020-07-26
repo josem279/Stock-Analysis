@@ -33,10 +33,12 @@ Some of the potential disadvantages that can occur with refactoring code on the 
 
 **2. How do these pros and cons apply to refactoring the original VBA script?**
 
-When comparing the Original code and this newly created refactored VBA script, we can see some that there were pros and cons to each way of conducting the analysis:
+When comparing the Original code and this newly created refactored VBA script, we can see some that there were pros and cons to each way of conducting the analysis.
 
-- **Pros and Cons of the Original Code
+**Pros and Cons of the Original Code**
+
 The original code was able to conduct an analyses of the stocks that were presented for the 2017 and 2018 years rather efficiently. It was written in a consise manner that involved one long loop that would output a formatted value of the total volume and change in starting and ending prices for each ticker in one go. Though it was effective at conducting this analysis, by having so many calculation nested within one another, the code ran longer that needed and to someone unfamiliar with the code may have been hard to read as it could be easy to lose track of which line of code belonged to each method. 
 
-- **Pros and Cons of the Refactored Code
+**Pros and Cons of the Refactored Code**
+
 The refactored code is easier to read as it separates sections of code more cleanly. For instance, the tickerIndex variable and the loop used to read the tickerVolumes array are now separated from the For Counter loop used to run through all of the rows of data found in each tab. Additionally, the formatting is also cut out of the loop that runs through all rows. By splitting up these variables from the much larger For loop and If calculations, the macro run faster as it first stores the information in the corresponding arrays - ticker, volume, and starting/ending prices - **_then_** outputting it into corresponding cells rather than attempting to run all the If calculations for each line of data it may potentially output. Furthermore, the reduction in nested loops and calculations allows users better see the flow of the code and may prevent future mistakes and trouble reading the code - such as losing track of which line of code corresponds to which method or forgetting to close an If calculation.
