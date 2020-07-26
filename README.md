@@ -25,16 +25,16 @@ When looking at this particular VBA script as an example of refactoring code, we
 - The refactored script is now able to operate more efficiently as can be seen by the difference in time that it takes for the code to perform the analysis on each data set (2017 and 2018).
 
 Time it took code for 2017 data before refactoring:
-
+![Time it took code for 2017 data before refactoring:](https://github.com/josem279/Stock-Analysis/blob/master/green_stocks_2017.png)
 
 Time it takes code for 2017 data after refactoring:
-
+![Time it takes code for 2017 data after refactoring:](https://github.com/josem279/Stock-Analysis/blob/master/Resources/VBA_Challenge_2017.png)
 
 Time it took code for 2018 data before refactoring:
-
+![Time it took code for 2018 data before refactoring:](https://github.com/josem279/Stock-Analysis/blob/master/Resources/VBA_Challenge_2018.png)
 
 Time it takes code for 2018 data after refactoring:
-
+![Time it takes code for 2018 data after refactoring:](https://github.com/josem279/Stock-Analysis/blob/master/green_stocks_2018.png)
 
 - The code is now capable of dynamically creating indexes for  easy to read by adding comments that detailed every individual aspect of the subroutine. The flow of the code was nicer
 
