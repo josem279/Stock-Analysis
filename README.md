@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-### Purpose
+### Purpose 
 
 The purpose of this analysis was to create a more efficient workbook capable of calculating the total volume and price change of all stocks within the stock market over a one year period.
 
